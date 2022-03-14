@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&display=swap');
+
+:root{
+    --green: #048c26;
+    --blanc: #fff;
+    --noir: #000;
+    --orange: #f6a518;
+    --vert_clair: #ebf6ee;
+    --gris: #d8d8d8;
+    box-sizing: inherit;
+}
+body {
+    font-family: "Dosis", sans-serif;
+}
+
+/*slider **/
+
+.slide {
+    
+}
+
+.container {
+    
+}
+
+.slick-slide {
+    margin: 0 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+.slick-slide img {
+    display: block;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.copy {
+    padding-top: 250px;
+}
+
+
+/**end slider****/
+
+#titreSection {
+    color: var(--green);    
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    font-family: 600;
+    margin: 10px 0 10px 0;
+}
+
+#info {
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    background-color: var(--green);
+    display: grid;
+    grid-template-columns: 1fr 100px;
+    background-color: var(--green);
+}
+
+.logoLang {
+    width: 27px;
+    margin-left: 5px;
+    height: 25px;
+}
+
+#info h1 {
+    font-size: 0.8em;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+#logo {
+    margin: 0;
+    padding-left: 10px;
+    width: 100px;
+    height: 50px;
+}
+
+#navbar-content {
+    background-color: var(--blanc);
+}
+
+#navbar-content li:hover, #navbar-content li a:hover{
+    background-color: var(--green);
+    color: var(--blanc);
+}
+
+#menu {
+    background-color: var(--green);
+}
+
+#carouselExampleControls {
+    border-bottom: 10px solid var(--orange);
+}
+
+#mainHeader {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 200;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 1px 1px var(--noir);
+}
+
+#actualite {
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 20px;
+}
+
+#main #actualite h3 {
+    color: var(--noir);
+    font-size: 1.2em;
+    color: var(--green);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+#main #actualite a {
+    background-color: var(--green);
+    padding: 10px 15px;
+    text-decoration: none;
+    color: var(--blanc);
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.titre {
+    border-bottom: 1px solid var(--green);
+}
+.titre h1 {
+    color: var(--green);    
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    font-family: 600;
+    margin: 10px 0 10px 0;
+}
+
+#titre1 {
+    color: var(--green);    
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+    font-family: 600;
+    margin: 10px 0 10px 0;
+}
+
+.titre a {
+    text-decoration: none;
+    color: var(--green);
+    letter-spacing: 0.1em;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+
+#region p {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 20px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: var(--vert_clair);
+}
+
+#region a {
+    text-decoration: none;  
+    background-color: var(--green);
+    color: var(--blanc);
+    width: 220px;
+    font-size: 0.9em;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+#contact p {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.vert svg {
+    background-color: var(--green);
+    width: 40px;
+    height: 40px;
+    color: var(--blanc);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+footer {
+    background-image: url("../img/CNRA-footer-scaled.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 0 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: var(--blanc);
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+footer ul li a:hover {
+    color: var(--orange);
+}
+
+footer p {
+    padding: 53px 20px 0 20px;
+    text-align: center;
+    color: var(--blanc);
+    margin: 0;
+}
+
+@media screen and (min-width:768px) {
+    .logoLang {
+        width: 30px;
+        margin-left: 5px;
+        height: 25px;
+    }
+    #info h1 {
+        font-size: 1.1em;
+    }
+    #info {
+        height: 50px;
+    }
+    iframe {
+        width: 750px;
+    }
+    #lang {
+        position: relative;
+        right: -17%;
+        top: -1%;
+    }
+    .logoLang {
+        margin-left: 8px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    #navbar-content {
+        background-color: transparent;
+    }
+    iframe {
+        width: 380px;
+        height: 400px;
+    }
+    #lang {
+        right: -25%;
+        top: -1%;
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+    #carouselExampleControls {
+        margin: 0 67px;
+    }
+    #logo {
+        margin: 0;
+        padding-left: 70px;
+        width: 200px;
+        height: 70px;
+    }
+}
