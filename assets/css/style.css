@@ -9,8 +9,8 @@
     --gris: #d8d8d8;
     box-sizing: inherit;
 }
-body {
-    font-family: "Dosis", sans-serif;
+* {
+    font-family: 'Dosis', sans-serif;
 }
 
 /*slider **/
@@ -77,10 +77,24 @@ body {
 #titreSection {
     color: var(--green);    
     text-transform: uppercase;
-    font-size: 1.2em;
-    letter-spacing: 0.1em;
-    font-family: 600;
-    margin: 10px 0 10px 0;
+    font-size: 1.1em;
+    font-weight: 900;
+    margin: 10px 0;
+}
+
+#aed {
+    height: 170px;
+    background: url("../img/slide-cnra-scaled.jpg") center / cover no-repeat;
+    border-radius: 0 0 40px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filAriane svg{
+    background-color: var(--green); 
+    color: var(--blanc);
+    text-decoration: none;
 }
 
 #info {
@@ -218,6 +232,7 @@ body {
     margin: 10px 0;
 }
 
+/*icone */
 .vert svg {
     background-color: var(--green);
     width: 40px;
@@ -226,6 +241,12 @@ body {
     border-radius: 50%;
     padding: 10px;
 }
+
+/*la fleche */
+#haut {
+    display: none;
+}
+
 
 footer {
     background-image: url("../img/CNRA-footer-scaled.jpg");
@@ -298,6 +319,22 @@ footer p {
         right: -25%;
         top: -1%;
     }
+    #haut {
+        display: block;
+        width: 60px;
+        height: 60px;
+        background-color: var(--green);
+        color: var(--blanc);
+        border-radius: 50%;
+        position: fixed;
+        right: 1px;
+        bottom: 50px;
+        border: none;
+    }
+    #haut svg {
+        width: 30px;
+        height: 30px;
+    }
 
 }
 
@@ -310,5 +347,8 @@ footer p {
         padding-left: 70px;
         width: 200px;
         height: 70px;
+    }
+    #aed {
+        margin: 0 65px;
     }
 }
