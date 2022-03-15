@@ -13,95 +13,10 @@
     font-family: 'Dosis', sans-serif;
 }
 
-<<<<<<< HEAD
 .owl-carousel {
     background-color: rgb(226, 226, 226);
     padding: 20px 0;
     margin: 20px 0;
-=======
-/*slider **/
-
-.slide {
-    
-}
-
-.container {
-    
-}
-
-.slick-slide {
-    margin: 0 20px;
-}
-
-.slick-slide img {
-    width: 100%;
-}
-
-.slick-slider {
-    position: relative;
-    display: block;
-    box-sizing: border-box;
-}
-
-.slick-list {
-    position: relative;
-    display: block;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-
-.slick-track {
-    position: relative;
-    top: 0;
-    left: 0;
-    display: block;
-}
-
-.slick-slide {
-    display: none;
-    float: left;
-    height: 100%;
-    min-height: 1px;
-}
-
-.slick-slide img {
-    display: block;
-}
-
-.slick-initialized .slick-slide {
-    display: block;
-}
-
-.copy {
-    padding-top: 250px;
-}
-
-
-/**end slider****/
-
-#titreSection {
-    color: var(--green);    
-    text-transform: uppercase;
-    font-size: 1.1em;
-    font-weight: 900;
-    margin: 10px 0;
-}
-
-#aed {
-    height: 170px;
-    background: url("../img/slide-cnra-scaled.jpg") center / cover no-repeat;
-    border-radius: 0 0 40px 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.filAriane svg{
-    background-color: var(--green); 
-    color: var(--blanc);
-    text-decoration: none;
->>>>>>> 33d01274f88f2e637a9a1c6da5fe93999e26e49b
 }
 
 #info {
@@ -249,7 +164,6 @@
     display: none;
 }
 
-<<<<<<< HEAD
 .text-justify {
     text-align: justify;
 }
@@ -296,8 +210,6 @@
     color: var(--green);
 }
 
-=======
->>>>>>> 33d01274f88f2e637a9a1c6da5fe93999e26e49b
 
 footer {
     background-image: url("../img/CNRA-footer-scaled.jpg");
@@ -409,7 +321,6 @@ footer p {
     #aed {
         margin: 0 65px;
     }
-<<<<<<< HEAD
     .navbar-nav {
         margin-right: 60px;
     }
@@ -417,6 +328,7 @@ footer p {
         width: 550px;
         height: 320px;
     }
-=======
->>>>>>> 33d01274f88f2e637a9a1c6da5fe93999e26e49b
+    .filAriane {
+        margin-left: 15px;
+    }
 }
