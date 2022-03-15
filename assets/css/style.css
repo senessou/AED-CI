@@ -13,6 +13,12 @@
     font-family: 'Dosis', sans-serif;
 }
 
+<<<<<<< HEAD
+.owl-carousel {
+    background-color: rgb(226, 226, 226);
+    padding: 20px 0;
+    margin: 20px 0;
+=======
 /*slider **/
 
 .slide {
@@ -95,6 +101,7 @@
     background-color: var(--green); 
     color: var(--blanc);
     text-decoration: none;
+>>>>>>> 33d01274f88f2e637a9a1c6da5fe93999e26e49b
 }
 
 #info {
@@ -122,22 +129,24 @@
 
 #logo {
     margin: 0;
-    padding-left: 10px;
-    width: 100px;
-    height: 50px;
+    padding-left: 5px;
+    width: 110px;
+    height: 60px;
 }
 
 #navbar-content {
     background-color: var(--blanc);
 }
 
-#navbar-content li:hover, #navbar-content li a:hover{
-    background-color: var(--green);
-    color: var(--blanc);
+#navbar-content li a {
+    color: var(--noir);
+}
+#navbar-content li a:hover{
+    color: var(--orange);
 }
 
-#menu {
-    background-color: var(--green);
+#navbar-content .active {
+    color: var(--orange);
 }
 
 #carouselExampleControls {
@@ -180,20 +189,13 @@
 
 .titre {
     border-bottom: 1px solid var(--green);
+    margin-bottom: 10px;
 }
+
 .titre h1 {
     color: var(--green);    
     text-transform: uppercase;
-    font-size: 1.2em;
-    letter-spacing: 0.1em;
-    font-family: 600;
-    margin: 10px 0 10px 0;
-}
-
-#titre1 {
-    color: var(--green);    
-    text-transform: uppercase;
-    font-size: 1.2em;
+    font-size: 1.1em;
     letter-spacing: 0.1em;
     font-family: 600;
     margin: 10px 0 10px 0;
@@ -247,6 +249,55 @@
     display: none;
 }
 
+<<<<<<< HEAD
+.text-justify {
+    text-align: justify;
+}
+
+#nav-tab1 {
+    display: none;
+}
+
+#menu {
+    background-color: var(--blanc);
+    border: 1px solid var(--green);
+    height: 50px;
+}
+
+#aed {
+    height: 170px;
+    background: url("../img/slide-cnra-scaled.jpg") center / cover no-repeat;
+    border-radius: 0 0 40px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filAriane a{
+    color: var(--green);
+    text-decoration: none;
+}
+
+.filAriane svg{
+    text-decoration: none;
+}
+
+#main .txt-size {
+    font-size: 0.8em;
+    border-radius: 50px;
+    background-color: var(--green);
+}
+
+#main .green {
+    color: var(--green);
+}
+
+.green {
+    color: var(--green);
+}
+
+=======
+>>>>>>> 33d01274f88f2e637a9a1c6da5fe93999e26e49b
 
 footer {
     background-image: url("../img/CNRA-footer-scaled.jpg");
@@ -305,6 +356,13 @@ footer p {
     .logoLang {
         margin-left: 8px;
     }
+    #nav-tab1 {
+        display: block;
+    }
+    #nav-tab2 {
+        display: none;
+    }
+   
 }
 
 @media screen and (min-width:992px) {
@@ -312,8 +370,8 @@ footer p {
         background-color: transparent;
     }
     iframe {
-        width: 380px;
-        height: 400px;
+        width: 450px;
+        height: 250px;
     }
     #lang {
         right: -25%;
@@ -351,4 +409,14 @@ footer p {
     #aed {
         margin: 0 65px;
     }
+<<<<<<< HEAD
+    .navbar-nav {
+        margin-right: 60px;
+    }
+    iframe {
+        width: 550px;
+        height: 320px;
+    }
+=======
+>>>>>>> 33d01274f88f2e637a9a1c6da5fe93999e26e49b
 }

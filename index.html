@@ -11,8 +11,14 @@
     <script src="./assets/js/bootstrap.bundle.min.js" defer></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+    <!--carousel cdn css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
 
     <script src="./assets/js/slider.js" defer></script>
     <script src="./assets/js/btn.js" defer></script>
@@ -28,17 +34,17 @@
         </div>
     </div>
     <header id="mainHeader" class="navbar navbar-expand-lg navbar-light bg-light">
-        <a href="./index.html" class="navbar-brand"><img src="./assets/img/index.jpeg" alt="logo" id="logo"></a>
+        <a href="./index.html" class="navbar-brand"><img src="./assets/img/index.jpeg" alt="logo" id="logo" class="img-fluid"></a>
         <button id="menu" type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-content">
             <span class="navbar-toggler-icon"></span>
         </button>
         <nav id="navbar-content" class="collapse navbar-collapse">
             <ul class=" navbar-nav ms-3 ms-lg-auto">
-                <li class="nav-item h6"><a  href="index.html" class="nav-link active">ACCUEIL</a></li>
-                <li class="nav-item h6"><a  href="qui_somme_nous.html" class="nav-link">QUI SOMME NOUS ?</a></li>
-                <li class="nav-item h6"><a href="agriculture.html" class="nav-link">AGRICULTURE</a></li>
-                <li class="nav-item h6"><a href="immobilier.html" class="nav-link">IMMOBILIER</a></li>
-                <li class="nav-item h6"><a href="contact.html" class="nav-link">CONTACTEZ-NOUS</a></li>
+                <li class="nav-item h5"><a  href="index.html" class="nav-link active">ACCUEIL</a></li>
+                <li class="nav-item h5"><a href="qui_somme_nous.html" class="nav-link ">QUI SOMME NOUS ?</a></li>
+                <li class="nav-item h5"><a href="agriculture.html" class="nav-link">AGRICULTURE</a></li>
+                <li class="nav-item h5"><a href="immobilier.html" class="nav-link">IMMOBILIER</a></li>
+                <li class="nav-item h5"><a href="contact.html" class="nav-link">CONTACTEZ-NOUS</a></li>
             </ul>  
         </nav>
     </header>
@@ -67,7 +73,7 @@
         <div class="container-lg">
             <div class="row">
                 <div id="test" class="titre d-flex flex-column justify-content-between align-items-center my-4 col-12   d-md-flex flex-md-row">
-                    <h1>les actualites du CNRA</h1>
+                    <h1 class="fw-bold">les actualites du CNRA</h1>
                     <a href="#" class="d-block">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle vert" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
@@ -76,7 +82,7 @@
                 </div>
                 <section id="actualite" class="col-12 col-md-6 col-lg-4">
                     <div class="card shadow">
-                        <img src="./assets/img/Img-1336-634-01.webp" alt="photo1">
+                        <img src="./assets/img/Img-1336-634-01.webp" alt="photo1" class="img-fluid">
                             <div id="cercle">
                         <div class="card-body">
                             <h3>L’Ambassadeur de France en Côte d’Ivoire a visité le CNRA </h3>
@@ -88,7 +94,7 @@
                 
                 <section id="actualite" class="col-12 col-md-6 col-lg-4">
                     <div class="card shadow">
-                        <img src="./assets/img/Img-1336-634-01.webp" alt="photo1">
+                        <img src="./assets/img/Img-1336-634-01.webp" alt="photo1" class="img-fluid">
                             <div id="cercle">
                         <div class="card-body">
                             <h3>L’Ambassadeur de France en Côte d’Ivoire a visité le CNRA </h3>
@@ -100,7 +106,7 @@
                 
                 <section id="actualite" class="col-12 col-md-6 col-lg-4">
                     <div class="card shadow">
-                        <img src="./assets/img/Img-1336-634-01.webp" alt="photo1">
+                        <img src="./assets/img/Img-1336-634-01.webp" alt="photo1" class="img-fluid">
                             <div id="cercle">
                         <div class="card-body">
                             <h3>L’Ambassadeur de France en Côte d’Ivoire a visité le CNRA </h3>
@@ -113,35 +119,45 @@
 
             <div class="row">
                 <div class="titre col-12">
-                    <h1>LES DIRECTION REGIONAL DU CNRA</h1>
+                    <h1 class="fw-bold">LES DIRECTION REGIONAL DU CNRA</h1>
                 </div>
                 <div id="region" class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center my-4 row>">
-                    <p class="w-100">Service l'Agriculture ivoirienne dans toute sa diversité régionale. Palmier à huile, coton, Cacao,
+                    <p class="w-100 text-center">Service l'Agriculture ivoirienne dans toute sa diversité régionale. Palmier à huile, coton, Cacao,
                         Anacarde, Riz, Manioc, Hévéa.</p>
-                    <a href="#" class="d-block">Consulter la carteinteractive</a>
+                    <a href="#" class="d-block text-center"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle vert" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                      </svg> Consulter la carteinteractive</a>
                     </div>
-                <img src="./assets/img/carte.webp" alt="catre" class="img-fluid w-50 mt-4 col-12 col-md-6 w-md-25 mx-auto">
+                <figure class="figure mx-auto mt-4 col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
+                    <img src="./assets/img/carte.webp" alt="catre" class="img-fluid">
+                </figure>
             </div> <!--end region-->
 
             <section id="video" class="row">
                 
-                <div class="col-12 col-lg-4">
-                    <h1 id="titreSection" class="titre">AED EN video</h1>
-                    <figure>
-                        <iframe width="360px" height="300px" src="https://www.youtube.com/embed/VSq1RShJB6k"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </figure>
+                <div class="col-12 col-lg-6">
+                    <div class="titre col-12">
+                        <h1 class="fw-bold fs-6">AED EN VIDEO</h1>
+                    </div>
+                    <iframe width="350px" height="400px" src="https://www.youtube.com/embed/VSq1RShJB6k"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <h1 id="titreSection" class="titre">LES RAPPORTS ANNUELS</h1>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="titre col-12">
+                        <h1 class="fw-bold fs-6">LES RAPPORTS ANNUELS</h1>
+                    </div>
                     <figure class="figure p-5">
                         <img src="./assets/img/Couverture-cnra-en-2018-VF-scaled.jpg" alt="rapport" class="img-fluid">
                     </figure>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <h1 id="titreSection" class="titre">CNRA INFO</h1>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="titre col-12">
+                        <h1 class="fw-bold fs-6">CNRA INFO</h1>
+                    </div>
                     <figure class="figure p-5">
                         <img src="./assets/img/Couverture-cnra-en-2018-VF-scaled.jpg" alt="rapport" class="img-fluid">
                     </figure>
@@ -149,110 +165,55 @@
             </section> <!--end video-->
 
             <section id="partenaire" class="row">
-
-                <h1 id="titreSection" class="titre">LES partenaires</h1>
-                <section class="customer-logos slider">
-                    <div class="slide">
+                
+                <div class="titre col-12">
+                    <h1 class="fw-bold">LES partenaires</h1>
+                </div>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
                         <img src="./assets/img/partenaire/africa-rice.webp" alt="logo">
                     </div>
-                    <div class="slide">
+                    <div class="item">
                         <img src="./assets/img/partenaire/BIOVERSITY-LOGO.webp" alt="logo">
                     </div>
-                    <div class="cslide">
+                    <div class="item">
                         <img src="./assets/img/partenaire/CEMOI.webp" alt="logo">
                     </div>
-                    <div class="slide">
+                    <div class="item">
                         <img src="./assets/img/partenaire/CTA.webp" alt="logo">
                     </div>
-                    <div class="slide">
+                    <div class="item">
                         <img src="./assets/img/partenaire/eu_flag.webp" alt="logo">
                     </div>
-                    <div class="slide">
+                    <div class="item">
                         <img src="./assets/img/partenaire/FAO_logo_Blue_3lines_en.webp" alt="logo">
                     </div>
-                    <div class="slide">
+                    <div class="item">
                         <img src="./assets/img/partenaire/fara.webp" alt="logo">
                     </div>
-                    <div class="slide">
+                    <div class="item">
                         <img src="./assets/img/partenaire/FIRCA.webp" alt="logo">
                     </div>
-                    <div class="slide">
+                    <div class="item">
                         <img src="./assets/img/partenaire/logo-Millenium-c.webp" alt="logo">
                     </div>
-                    <div class="slide">
+                    <div class="item">
                         <img src="./assets/img/partenaire/Logo_UEMOA.webp" alt="logo">
                     </div>
-                    <div class="slide">
+                    <div class="item">
                         <img src="./assets/img/partenaire/Universiteit_Gent-logo-E63BE5CBE3-seeklogo.com_.webp" alt="logo">
                     </div>
-                    <div class="slide">
+                    <div class="item">
                         <img src="./assets/img/partenaire/WCF.webp" alt="logo">
                     </div>
-                </section>
-                <!-- <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="./assets/img/partenaire/africa-rice.webp" class="d-block w-25"
-                                alt="part1">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/img/partenaire/BIOVERSITY-LOGO.webp" class="d-block w-25
-                                alt="part2">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/img/partenaire/CEMOI.webp" class="d-block w-25"
-                                alt="part2">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/img/partenaire/CTA.webp" class="d-block w-25" alt="part2">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/img/partenaire/eu_flag.webp" class="d-block w-25"
-                                alt="part2">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/img/partenaire/FAO_logo_Blue_3lines_en.webp"
-                                class="d-block w-25" alt="part2">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/img/partenaire/fara.webp" class="d-block w-25" alt="part2">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/img/partenaire/FIRCA.webp" class="d-block w-25"
-                                alt="part2">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/img/partenaire/logo-Millenium-c.webp" class="d-block w-25"
-                                alt="part2">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/img/partenaire/Logo_UEMOA.webp" class="d-block w-25"
-                                alt="part2">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/img/partenaire/Universiteit_Gent-logo-E63BE5CBE3-seeklogo.com_.webp"
-                                class="d-block w-25" alt="part2">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/img/partenaire/WCF.webp" class="d-block w-25" alt="part2">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselControls"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div> -->
             </section><!--end partenaire-->
 
 
             <section id="contact" class="row">
-                <h1 id="titreSection" class="titre">CONTACT AED</h1>
+
+                <div class="titre col-12">
+                    <h1 class="fw-bold">CONTACT AED</h1>
+                </div>
                 <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center my-4">
                     <div class="vert">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
