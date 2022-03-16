@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,12 +10,19 @@
     <script src="./assets/js/bootstrap.bundle.min.js" defer></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+    <!--carousel cdn css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
 
     <script src="./assets/js/slider.js" defer></script>
 
-    <title>AED - Accueill</title>
+    <title>AED - IMMOBILIER</title>
 </head>
 <body>
     <div id="info" class="d-flex flex-column flex-md-row justify-content-md-center">
@@ -33,8 +39,8 @@
         </button>
         <nav id="navbar-content" class="collapse navbar-collapse">
             <ul class=" navbar-nav ms-3 ms-lg-auto">
-                <li class="nav-item h5"><a  href="index.html" class="nav-link ">ACCUEIL</a></li>
-                <li class="nav-item h5"><a href="qui_somme_nous.html" class="nav-link ">QUI SOMME NOUS ?</a></li>
+                <li class="nav-item h5"><a  href="index.html" class="nav-link">ACCUEIL</a></li>
+                <li class="nav-item h5"><a href="qui_somme_nous.html" class="nav-link">QUI SOMME NOUS ?</a></li>
                 <li class="nav-item h5"><a href="agriculture.html" class="nav-link ">AGRICULTURE</a></li>
                 <li class="nav-item h5"><a href="immobilier.html" class="nav-link active">IMMOBILIER</a></li>
                 <li class="nav-item h5"><a href="contact.html" class="nav-link">CONTACTEZ-NOUS</a></li>
@@ -42,190 +48,226 @@
         </nav>
     </header>
     <main id="main">
-        <div id="carouselExampleControls" class="carousel slide bordure" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./assets/img/slide-image-scaled.jpg" class="d-block h-100 h-100 w-100" alt="slide">
-                </div>
-                <div class="carousel-item">
-                    <img src="./assets/img/Diapo-DVRR-mod2-01-scaled.webp" class="d-block w-100" alt="slide">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+
+        <div id="aed">
+            <h1 class="text-white">IMMOBILIER</h1>
         </div>
+
+        <nav class="mt-4 ms-4 ms-lg-5">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item filAriane"><a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill filAriane text-decoration-none" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                    <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                  </svg> Accueil</a></li>   
+                <li class="breadcrumb-item active">Immobilier</li>
+            </ol>
+        </nav>
 
         <div class="container-lg">
-            <div class="row">
-                <div id="test" class="titre d-flex flex-column justify-content-between align-items-center my-4 col-12   d-md-flex flex-md-row">
-                    <h1>les actualites du CNRA</h1>
-                    <a href="#" class="d-block">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle vert" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-                          </svg>Toutes les actualites
-                    </a>
-                </div>
-                <section id="actualite" class="col-12 col-md-6 col-lg-4">
-                    <div class="card shadow">
-                        <img src="./assets/img/Img-1336-634-01.webp" alt="photo1">
-                            <div id="cercle">
-                        <div class="card-body">
-                            <h3>L’Ambassadeur de France en Côte d’Ivoire a visité le CNRA </h3>
-                            <p>Son Excellence Monsieur l’Ambassadeur de France en Côte d’Ivoire, Jean</p>
-                            <a class="btn" href="#">En savoir +</a>
-                        </div>
-                    </div>
-                </section>
-                
-                <section id="actualite" class="col-12 col-md-6 col-lg-4">
-                    <div class="card shadow">
-                        <img src="./assets/img/Img-1336-634-01.webp" alt="photo1">
-                            <div id="cercle">
-                        <div class="card-body">
-                            <h3>L’Ambassadeur de France en Côte d’Ivoire a visité le CNRA </h3>
-                            <p>Son Excellence Monsieur l’Ambassadeur de France en Côte d’Ivoire, Jean</p>
-                            <a class="btn" href="#">En savoir +</a>
-                        </div>
-                    </div>
-                </section>
-                
-                <section id="actualite" class="col-12 col-md-6 col-lg-4">
-                    <div class="card shadow">
-                        <img src="./assets/img/Img-1336-634-01.webp" alt="photo1">
-                            <div id="cercle">
-                        <div class="card-body">
-                            <h3>L’Ambassadeur de France en Côte d’Ivoire a visité le CNRA </h3>
-                            <p>Son Excellence Monsieur l’Ambassadeur de France en Côte d’Ivoire, Jean</p>
-                            <a class="btn" href="#">En savoir +</a>
-                        </div>
-                    </div>
-                </section>   
-            </div><!--end actualité-->
 
-            <div class="row">
-                <div class="titre col-12">
-                    <h1>LES DIRECTION REGIONAL DU CNRA</h1>
+            <div class="row mb-4">
+
+                <div id="test" class="titre d-flex flex-column justify-content-between align-items-center my-4 col-12   d-md-flex flex-md-row">
+                    <h1 class="fw-bold text-uppercase">Thematiques</h1>
                 </div>
-                <div id="region" class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center my-4 row>">
-                    <p class="w-100">Service l'Agriculture ivoirienne dans toute sa diversité régionale. Palmier à huile, coton, Cacao,
-                        Anacarde, Riz, Manioc, Hévéa.</p>
-                    <a href="#" class="d-block">Consulter la carteinteractive</a>
-                    </div>
-                <img src="./assets/img/carte.webp" alt="catre" class="img-fluid w-50 mt-4 col-12 col-md-6 w-md-25 mx-auto">
+                
+                <div id="nav-tab1">
+
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active h6 fw-bold green p-4 text-uppercase" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">CULTURES D'EXPORTATION</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link h6 fw-bold green p-4 text-uppercase" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Cultures vivrieres</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link h6 fw-bold green p-4 text-uppercase" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Biotechnologies et Technologies Post-Récolte</button>
+                          </li>
+                      </ul>
+                      <div class="tab-content border p-4" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <p class="fs-5 fst-normal text-justify"><img src="./assets/img/cultures-exportation-300x196.webp" alt="Cacao" class="img-fluid float-end ms-3 w-25"> Les activités sur les Cultures d’exportation continuent d’être axées sur l’amélioration de la productivité et de la qualité des produits agricoles, la mise au point de méthodes de lutte contre les principaux parasites et ravageurs endémiques, notamment la maladie du Swollen Shoot du cacaoyer, la maladie foliaire de l’hévéa causée par Corynespora cassiicola et la cochenille farineuse du manguier. En outre, une attention est accordée aux maladies exogènes dont l’apparition dans l’environnement de production exacerbera une situation parasitaire déjà préoccupante. Il s’agit en l’occurrence des maladies de la moniliose et du balai de sorcière chez le cacaoyer et du jaunissement mortel des cocotiers de Grand-Lahou. Dans ce cadre, des travaux de sélection préventive sont initiés.</p>
+                        </div>
+                        <div class="tab-pane fade fs-5 fst-normal text-justify" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <div>
+                                <img src="./assets/img/cultures-vivrieres.webp" alt="vivrieres" class="img-fluid float-end ms-3 w-25">
+                                <p>Les programmes de la thématique « Cultures vivrières » seront orientés de façon spécifique sur :</p>
+                                <ul>
+                                    <li>Le développement de stratégies d’adaptation au changement climatique : actualisation des calendriers culturaux et sélection de variétés de cycle court;</li>
+                                    <li>Le développement de stratégies de lutte respectueuses de l’environnement contre les maladies et ravageurs;</li>
+                                    <li>La production et la diffusion de semences de base de qualité;</li>
+                                    <li>Le transfert de technologies.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade fs-5 fst-normal text-justify" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                            <div>
+                                <img src="./assets/img/Technologies-post-recolte.webp" alt="vivrieres" class="img-fluid float-end ms-3 w-25">
+                                <p>La thématique « Biotechnologies et Technologies post-récolte» sera marquée par les travaux sur :</p>
+                                <ul>
+                                    <li>La détermination des bases moléculaires de la tolérance au déficit hydrique;</li>
+                                    <li>L’utilisation des outils moléculaires pour la caractérisation moléculaire des ressources génétiques et la sélection pour l’amélioration des rendements, de la tolérance aux maladies;</li>
+                                    <li>La production de matériel végétal élite par culture in vitro;</li>
+                                    <li>Le développement de procédés de conservation et de transformation des produits agricoles.</li>
+                                </ul>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div id="nav-tab2" class="p-0">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button text-uppercase text-success"  type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                CULTURES D'EXPORTATION
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <img src="./assets/img/cultures-exportation-300x196.webp" alt="Cacao" class="img-fluid w-50"> 
+                                <p class="fs-5 fst-normal text-justify">Les activités sur les Cultures d’exportation continuent d’être axées sur l’amélioration de la productivité et de la qualité des produits agricoles, la mise au point de méthodes de lutte contre les principaux parasites et ravageurs endémiques, notamment la maladie du Swollen Shoot du cacaoyer, la maladie foliaire de l’hévéa causée par Corynespora cassiicola et la cochenille farineuse du manguier. En outre, une attention est accordée aux maladies exogènes dont l’apparition dans l’environnement de production exacerbera une situation parasitaire déjà préoccupante. Il s’agit en l’occurrence des maladies de la moniliose et du balai de sorcière chez le cacaoyer et du jaunissement mortel des cocotiers de Grand-Lahou. Dans ce cadre, des travaux de sélection préventive sont initiés.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed text-uppercase text-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Cultures vivrieres
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <img src="./assets/img/cultures-vivrieres.webp" alt="vivrieres" class="img-fluid w-50">
+                                    <p>Les programmes de la thématique « Cultures vivrières » seront orientés de façon spécifique sur :</p>
+                                    <ul>
+                                        <li>Le développement de stratégies d’adaptation au changement climatique : actualisation des calendriers culturaux et sélection de variétés de cycle court;</li>
+                                        <li>Le développement de stratégies de lutte respectueuses de l’environnement contre les maladies et ravageurs;</li>
+                                        <li>La production et la diffusion de semences de base de qualité;</li>
+                                        <li>Le transfert de technologies.</li>
+                                    </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed text-uppercase text-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Biotechnologies et Technologie Post-Récolte
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <img src="./assets/img/Technologies-post-recolte.webp" alt="vivrieres" class="img-fluid float-end ms-3 w-25">
+                                    <p>La thématique « Biotechnologies et Technologies post-récolte» sera marquée par les travaux sur :</p>
+                                    <ul>
+                                        <li>La détermination des bases moléculaires de la tolérance au déficit hydrique;</li>
+                                        <li>L’utilisation des outils moléculaires pour la caractérisation moléculaire des ressources génétiques et la sélection pour l’amélioration des rendements, de la tolérance aux maladies;</li>
+                                        <li>La production de matériel végétal élite par culture in vitro;</li>
+                                        <li>Le développement de procédés de conservation et de transformation des produits agricoles.</li>
+                                    </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
             </div> <!--end region-->
 
-            <section id="video" class="row">
-                
-                <div class="col-12 col-lg-4">
-                    <h1 id="titreSection" class="titre">AED EN video</h1>
-                    <figure>
-                        <iframe width="360px" height="300px" src="https://www.youtube.com/embed/VSq1RShJB6k"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </figure>
+            <div class="row g-3">
+                <div class="titre d-flex flex-column justify-content-between align-items-center my-4 col-12   d-md-flex flex-md-row">
+                    <h1 class="fw-bold">PRODUITS</h1>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <h1 id="titreSection" class="titre">LES RAPPORTS ANNUELS</h1>
-                    <figure class="figure p-5">
-                        <img src="./assets/img/Couverture-cnra-en-2018-VF-scaled.jpg" alt="rapport" class="img-fluid">
-                    </figure>
+
+                <div class="card col-12 col-md-6">
+                    <img src="./assets/img/cultures-exportation.webp" class="card-img-top" alt="photo">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-success">Go somewhere</a>
+                    </div>
+                  </div>
+
+                  <div class="card col-12 col-md-6">
+                    <img src="./assets/img/cultures-exportation.webp" class="card-img-top" alt="photo">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-success">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="row g-3">
+                <div class="titre d-flex flex-column justify-content-between align-items-center my-4 col-12   d-md-flex flex-md-row">
+                    <h1 class="fw-bold">SERVICE</h1>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <h1 id="titreSection" class="titre">CNRA INFO</h1>
-                    <figure class="figure p-5">
-                        <img src="./assets/img/Couverture-cnra-en-2018-VF-scaled.jpg" alt="rapport" class="img-fluid">
-                    </figure>
-                </div>
-            </section> <!--end video-->
+
+                <div class="card col-12 col-md-6">
+                    <img src="./assets/img/cultures-exportation.webp" class="card-img-top" alt="photo">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-success">Go somewhere</a>
+                    </div>
+                  </div>
+
+                  <div class="card col-12 col-md-6">
+                    <img src="./assets/img/cultures-exportation.webp" class="card-img-top" alt="photo">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-success">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
 
             <section id="partenaire" class="row">
+                
+                <div class="titre col-12">
+                    <h1 class="fw-bold">LES partenaires</h1>
+                </div>
 
-                <h1 id="titreSection" class="titre">LES partenaires</h1>
-                <section class="customer-logos slider">
-                    <div class="slide">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
                         <img src="./assets/img/partenaire/africa-rice.webp" alt="logo">
                     </div>
-                    <div class="slide">
+                    <div class="item">
                         <img src="./assets/img/partenaire/BIOVERSITY-LOGO.webp" alt="logo">
                     </div>
-                    <div class="cslide">
+                    <div class="item">
                         <img src="./assets/img/partenaire/CEMOI.webp" alt="logo">
                     </div>
-                    <div class="slide">
+                    <div class="item">
                         <img src="./assets/img/partenaire/CTA.webp" alt="logo">
                     </div>
-                    <div class="slide">
+                    <div class="item">
                         <img src="./assets/img/partenaire/eu_flag.webp" alt="logo">
                     </div>
-                    <div class="slide">
+                    <div class="item">
                         <img src="./assets/img/partenaire/FAO_logo_Blue_3lines_en.webp" alt="logo">
                     </div>
-                    <div class="slide">
+                    <div class="item">
                         <img src="./assets/img/partenaire/fara.webp" alt="logo">
                     </div>
-                    <div class="slide">
+                    <div class="item">
                         <img src="./assets/img/partenaire/FIRCA.webp" alt="logo">
                     </div>
-                    <div class="slide">
+                    <div class="item">
                         <img src="./assets/img/partenaire/logo-Millenium-c.webp" alt="logo">
                     </div>
-                    <div class="slide">
+                    <div class="item">
                         <img src="./assets/img/partenaire/Logo_UEMOA.webp" alt="logo">
                     </div>
-                    <div class="slide">
+                    <div class="item">
                         <img src="./assets/img/partenaire/Universiteit_Gent-logo-E63BE5CBE3-seeklogo.com_.webp" alt="logo">
                     </div>
-                    <div class="slide">
+                    <div class="item">
                         <img src="./assets/img/partenaire/WCF.webp" alt="logo">
                     </div>
-                </section>
+
+                </div>
             </section><!--end partenaire-->
-
-
-            <section id="contact" class="row">
-                <h1 id="titreSection" class="titre">LES partenaires</h1>
-                <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center my-4">
-                    <div class="vert">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
-                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
-                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                          </svg>
-                    </div>
-                    <p class="text-center">Bonoua, nom loin de NSIA banque <br>côte d'ivoire</p>
-                </div>
-
-                <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
-                    <div class="vert">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
-                            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                          </svg>
-                    </div>
-                    <p>+225 07 57 27 03 58 <br>+225 05 05 96 16 51</p>
-                </div>
-
-                <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
-                    <div class="vert">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-paper" viewBox="0 0 16 16">
-                            <path d="M4 0a2 2 0 0 0-2 2v1.133l-.941.502A2 2 0 0 0 0 5.4V14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V5.4a2 2 0 0 0-1.059-1.765L14 3.133V2a2 2 0 0 0-2-2H4Zm10 4.267.47.25A1 1 0 0 1 15 5.4v.817l-1 .6v-2.55Zm-1 3.15-3.75 2.25L8 8.917l-1.25.75L3 7.417V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v5.417Zm-11-.6-1-.6V5.4a1 1 0 0 1 .53-.882L2 4.267v2.55Zm13 .566v5.734l-4.778-2.867L15 7.383Zm-.035 6.88A1 1 0 0 1 14 15H2a1 1 0 0 1-.965-.738L8 10.083l6.965 4.18ZM1 13.116V7.383l4.778 2.867L1 13.117Z"/>
-                          </svg>
-                    </div>
-                    <p>info@aed-ci.net</p>
-                </div>
-            </section>
         </div>
-        <!--end #contact-->
-    </main>
-    <!--end main-->
-
+    </main><!--end main-->
     <footer id="mainFooter">
         <ul>
             <li><a href="#">Qui somme nous</a></li>
@@ -234,8 +276,7 @@
             <li><a href="#">Contactez-nous</a></li>
         </ul>
         <p>CopyRight&copy; AED 2022</p>
-    </footer>
-    <!--end footer-->
+    </footer><!--end footer-->
 </body>
 
 </html>
