@@ -78,13 +78,11 @@
     box-shadow: 0 1px 1px var(--noir);
 }
 
-#actualite {
-    border: 1px solid rgb(235, 235, 235);
-    border-radius: 0 0 10px 10px;
+.actualite {
     margin-bottom: 20px;
 }
 
-#main #actualite h3 {
+#main .actualite h5 {
     color: var(--noir);
     font-size: 1.2em;
     color: var(--green);
@@ -92,7 +90,7 @@
     letter-spacing: 0.1em;
 }
 
-#main #actualite a {
+#main .actualite a {
     background-color: var(--green);
     padding: 10px 15px;
     text-decoration: none;
@@ -100,6 +98,11 @@
     border-radius: 20px;
     text-transform: uppercase;
     font-size: 0.8em;
+}
+
+#main form button {
+    background-color: var(--green);
+    color: var(--blanc);
 }
 
 .titre {
@@ -208,6 +211,10 @@
 
 .green {
     color: var(--green);
+}
+
+.bgGreen {
+    background-color: var(--green);
 }
 
 
