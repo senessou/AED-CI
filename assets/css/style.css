@@ -27,6 +27,7 @@
     display: grid;
     grid-template-columns: 1fr 100px;
     background-color: var(--green);
+    
 }
 
 .logoLang {
@@ -35,12 +36,37 @@
     height: 25px;
 }
 
+
 #info h1 {
     font-size: 0.8em;
     font-style: italic;
     font-weight: bold;
     text-align: center;
 }
+
+#info a {
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--orange);
+    background-color: var(--blanc);
+    padding: 0 10px;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+#info a:hover {
+    background-color: var(--orange);
+    animation-iteration-count: 1;
+    color: var(--blanc);
+}
+
+#flash:hover {
+    background-color: var(--orange);
+}
+
 
 #logo {
     margin: 0;
@@ -204,6 +230,9 @@
     border-radius: 50px;
     background-color: var(--green);
 }
+#main form textarea {
+    resize: none;
+}
 
 #main .green {
     color: var(--green);
@@ -267,6 +296,10 @@ footer p {
     iframe {
         width: 750px;
     }
+    .map {
+        width: 390px;
+        height: 350px;
+    }
     #lang {
         position: relative;
         right: -17%;
@@ -291,6 +324,10 @@ footer p {
     iframe {
         width: 450px;
         height: 250px;
+    }
+    .map {
+        width: 450px;
+        height: 350px;
     }
     #lang {
         right: -25%;
@@ -334,6 +371,10 @@ footer p {
     iframe {
         width: 550px;
         height: 320px;
+    }
+    .map {
+        width: 550px;
+        height: 350px;
     }
     .filAriane {
         margin-left: 15px;

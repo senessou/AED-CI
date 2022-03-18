@@ -6,32 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="./assets/img/index.jpeg">
+    <!--bootstrap-->
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <script src="./assets/js/bootstrap.bundle.min.js" defer></script>
+    <!--google font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
     <!--carousel cdn css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <!--jquery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-
+    <!--carousel cdn javascript-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
-
+    <!--carousel cdn js commande-->
     <script src="./assets/js/slider.js" defer></script>
-
-    <title>AED - IMMOBILIER</title>
+    <!--google translation-->
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement('google_translate_element');
+        }
+    </script>
+    <!--amination.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>AED - CONTACT</title>
 </head>
 <body>
-    <div id="info" class="d-flex flex-column flex-md-row justify-content-md-center">
+    <!--info du site-->
+    <div id="info" class="d-flex flex-column justify-content-md-center align-items-center flex-md-row justify-content-md-between">
         <h1 class="mb-3 text-white text-center">AED, ensemble aujourd'hui pour bâtir demain</h1>
-        <div id="lang" class="d-flex justify-content-center d-md-flex justify-content-md-end">
-            <img src="./assets/img/langage/icone-drapeau-francais.jpg" alt="francais" class="logoLang">
-            <img src="./assets/img/langage/icon-drapeau-anglais.jpg" alt="anglais" class="logoLang">
-        </div>
-    </div>
+        <a href="https://apromac.ci/les-prix-apromac/" class="animate__animated animate__flash" target="_blank">PRIX APROMAC</a>
+    </div><!--end info du site-->
+
     <header id="mainHeader" class="navbar navbar-expand-lg navbar-light bg-light">
         <a href="./index.html" class="navbar-brand"><img src="./assets/img/index.jpeg" alt="logo" id="logo" class="img-fluid"></a>
         <button id="menu" type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-content">
@@ -49,10 +55,12 @@
     </header>
     <main id="main">
 
+        <!--image aed-->
         <div id="aed">
             <h1 class="text-white">IMMOBILIER</h1>
-        </div>
+        </div><!--end image aed-->
 
+        <!--fil arine-->
         <nav class="mt-4 ms-4 ms-lg-5">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item filAriane"><a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill filAriane text-decoration-none" viewBox="0 0 16 16">
@@ -61,7 +69,7 @@
                   </svg> Accueil</a></li>   
                 <li class="breadcrumb-item active">Immobilier</li>
             </ol>
-        </nav>
+        </nav><!--end fil arine-->
 
         <div class="container-lg">
 
@@ -71,8 +79,8 @@
                     <h1 class="fw-bold text-uppercase">Thematiques</h1>
                 </div>
                 
+                <!--nav desktop-->
                 <div id="nav-tab1">
-
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item" role="presentation">
                           <button class="nav-link active h6 fw-bold green p-4 text-uppercase" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">CULTURES D'EXPORTATION</button>
@@ -113,8 +121,9 @@
                             </div>
                         </div>
                       </div>
-                </div>
+                </div><!--end nav desktop-->
 
+                <!--nav mobile first-->
                 <div id="nav-tab2" class="p-0">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
@@ -169,9 +178,10 @@
                           </div>
                         </div>
                       </div>
-                </div>
-            </div> <!--end region-->
+                </div><!--end nav mobile first-->
+            </div> <!--end ligne-->
 
+            <!--produit-->
             <div class="row g-3">
                 <div class="titre d-flex flex-column justify-content-between align-items-center my-4 col-12   d-md-flex flex-md-row">
                     <h1 class="fw-bold">PRODUITS</h1>
@@ -194,8 +204,9 @@
                       <a href="#" class="btn btn-success">Go somewhere</a>
                     </div>
                   </div>
-            </div>
+            </div><!--end produit-->
 
+            <!--service-->
             <div class="row g-3">
                 <div class="titre d-flex flex-column justify-content-between align-items-center my-4 col-12   d-md-flex flex-md-row">
                     <h1 class="fw-bold">SERVICE</h1>
@@ -218,10 +229,11 @@
                       <a href="#" class="btn btn-success">Go somewhere</a>
                     </div>
                   </div>
-            </div>
+            </div><!--end service-->
 
+            <!--partenaire-->
             <section id="partenaire" class="row">
-                
+            
                 <div class="titre col-12">
                     <h1 class="fw-bold">LES partenaires</h1>
                 </div>
@@ -263,7 +275,6 @@
                     <div class="item">
                         <img src="./assets/img/partenaire/WCF.webp" alt="logo">
                     </div>
-
                 </div>
             </section><!--end partenaire-->
         </div>

@@ -7,32 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="./assets/img/index.jpeg">
+    <!--bootstrap-->
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <script src="./assets/js/bootstrap.bundle.min.js" defer></script>
+    <!--google font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
     <!--carousel cdn css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <!--jquery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
-
+    <!--carousel cdn javascript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  
+    <!--carousel cdn js commande-->
     <script src="./assets/js/slider.js" defer></script>
-    <script src="./assets/js/btn.js" defer></script>
-
-    <title>AED - ACUEILL</title>
+    <!--google translation-->
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement('google_translate_element');
+        }
+    </script>
+    <!--amination.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>AED - CONTACT</title>
 </head>
 <body>
-    <div id="info" class="d-flex flex-column flex-md-row justify-content-md-center">
+    <!--info du site-->
+    <div id="info" class="d-flex flex-column justify-content-md-center align-items-center flex-md-row justify-content-md-between">
         <h1 class="mb-3 text-white text-center">AED, ensemble aujourd'hui pour bâtir demain</h1>
-        <div id="lang" class="d-flex justify-content-center d-md-flex justify-content-md-end">
-            <img src="./assets/img/langage/icone-drapeau-francais.jpg" alt="francais" class="logoLang">
-            <img src="./assets/img/langage/icon-drapeau-anglais.jpg" alt="anglais" class="logoLang">
-        </div>
-    </div>
+        <a href="https://apromac.ci/les-prix-apromac/" class="animate__animated animate__flash" target="_blank">PRIX APROMAC</a>
+    </div><!--end info du site-->
+    
     <header id="mainHeader" class="navbar navbar-expand-lg navbar-light bg-light">
         <a href="./index.html" class="navbar-brand"><img src="./assets/img/index.jpeg" alt="logo" id="logo" class="img-fluid"></a>
         <button id="menu" type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-content">
@@ -49,6 +55,7 @@
         </nav>
     </header>
     <main id="main">
+        <!--carousel du site-->
         <div id="carouselExampleControls" class="carousel slide bordure" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -71,10 +78,15 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
-        </div>
+        </div><!--end carousel-->
 
+        <!--page principale du site-->
         <div class="container-lg">
-            <div class="row g-3">
+
+            <!--artice-->
+            <section class="row g-3">
+
+                <!--titre de l'artice-->
                 <div id="test" class="titre d-flex flex-column justify-content-between align-items-center my-4 col-12 d-md-flex flex-md-row">
                     <h1 class="fw-bold">les actualites du AED</h1>
                     <a href="#" class="d-block">
@@ -109,11 +121,11 @@
                         <p class="card-text">Son Excellence Monsieur l’Ambassadeur de France en Côte d’Ivoire, Jean</p>
                         <a class="btn" href="#">En savoir +</a>
                     </div>
-                </div>
-                  
-            </div><!--end actualité-->
+                </div>     
+            </section><!--end article-->
 
-            <div class="row">
+            <!--ligne sur la situation geographie-->
+            <section class="row">
                 <div class="titre col-12">
                     <h1 class="fw-bold">LES DIRECTION REGIONAL DU AED</h1>
                 </div>
@@ -125,8 +137,9 @@
                 <figure class="figure mx-auto mt-4 col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
                     <img src="./assets/img/carte.webp" alt="catre" class="img-fluid">
                 </figure>
-            </div> <!--end region-->
+            </section><!--end situation geographie-->
 
+            <!--video de aed-->
             <section id="video" class="row">
                 
                 <div class="col-12 col-lg-6">
@@ -156,9 +169,10 @@
                         <img src="./assets/img/Couverture-cnra-en-2018-VF-scaled.jpg" alt="rapport" class="img-fluid">
                     </figure>
                 </div>
-            </section> <!--end video-->
+            </section><!--end video-->
 
-            <section id="partenaire" class="row">
+            <!--partenaire de lentreprise-->
+            <section class="row">
                 
                 <div class="titre col-12">
                     <h1 class="fw-bold">LES partenaires</h1>
@@ -203,6 +217,7 @@
             </section><!--end partenaire-->
 
 
+            <!--contact aed-->
             <section id="contact" class="row">
 
                 <div class="titre col-12">
@@ -235,19 +250,20 @@
                     </div>
                     <p>info@aed-ci.net</p>
                 </div>
-            </section>
-        </div>
-        <!--end #contact-->
-    </main>
-    <!--end main-->
-        <button id="haut" type="button">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
-              </svg>
-        </button>
-    <!--button-->
+            </section><!--end #contact-->
 
+        </div> 
 
+    </main><!--end main-->
+
+    <!--fleche haut-->
+    <button id="haut" type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+            </svg>
+    </button><!--button-->
+
+    <!--footer-->
     <footer id="mainFooter">
         <ul>
             <li><a href="#">Qui somme nous</a></li>
