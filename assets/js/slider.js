@@ -5,16 +5,16 @@ $('.owl-carousel').owlCarousel({
     dots:false,
     autoplay:true,
     autoplayTimeout: 2000,
-    stagePadding:50,
+    stagePadding: 1,
     responsive:{
         576:{
-            items:2
+            items:1
         },
         768:{
             items:3
         },
         1024:{
-            items:5 
+            items:8
         }
     }
 })

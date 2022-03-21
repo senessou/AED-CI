@@ -15,7 +15,7 @@
 
 
 .owl-carousel {
-    background-color: rgb(226, 226, 226);
+    background-color: #f8f8f8;
     padding: 20px 0;
     margin: 20px 0;
 }
@@ -187,6 +187,11 @@
     font-size: 0.9em;
     padding: 5px 10px;
     border-radius: 20px;
+}
+
+#region a:hover {
+    color: var(--blanc);
+    background-color: var(--orange);
 }
 
 #contact p {
