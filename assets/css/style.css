@@ -13,6 +13,7 @@
     font-family: 'Dosis', sans-serif;
 }
 
+
 .owl-carousel {
     background-color: rgb(226, 226, 226);
     padding: 20px 0;
@@ -75,6 +76,10 @@
     height: 60px;
 }
 
+#navbar-content li a {
+    letter-spacing: 0.1em;
+}
+
 #navbar-content {
     background-color: var(--blanc);
 }
@@ -127,6 +132,11 @@
 }
 
 #main form button {
+    color: var(--green);
+    border: 1px solid var(--green);
+}
+
+#main form button:hover {
     background-color: var(--green);
     color: var(--blanc);
 }
@@ -175,7 +185,6 @@
 
 #contact p {
     font-weight: bold;
-    margin: 10px 0;
 }
 
 /*icone */
@@ -232,6 +241,10 @@
 }
 #main form textarea {
     resize: none;
+}
+
+#main form span {
+    color: red;
 }
 
 #main .green {
