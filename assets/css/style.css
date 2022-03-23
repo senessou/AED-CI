@@ -236,6 +236,11 @@
     align-items: center;
 }
 
+#main .photo {
+    width: 1719px;
+    height: 250px;
+}
+
 .filAriane a{
     color: var(--green);
     text-decoration: none;
@@ -338,7 +343,7 @@ footer p {
     #nav-tab2 {
         display: none;
     }
-   
+    
 }
 
 @media screen and (min-width:992px) {
@@ -402,5 +407,10 @@ footer p {
     }
     .filAriane {
         margin-left: 15px;
+    }
+
+    #main .photo {
+        width: 1719px;
+        height: 370px;
     }
 }
